@@ -823,7 +823,7 @@ When **ANY** is used atleast one of them should be matched.
 ```
 SELECT columns
 FROM table
-WHERE column-name comparison-operator ANY
+WHERE column-name comparison-operator ANY/ALL
 (sub-query);
 ```
 
